@@ -1,0 +1,47 @@
+.container {
+    max-width: 600px; /* Ajuste de acordo com a largura preferida */
+    margin: auto;
+    margin-top: 50px; /* Espaço no topo */
+}
+
+.dropdown .btn-dark {
+    background-color: #000;
+    border: none;
+    padding: 10px 0; /* Altura do botão */
+    border-radius: 20px; /* Bordas arredondadas */
+    font-size: 18px; /* Tamanho da fonte */
+}
+
+.dropdown-menu {
+    border-radius: 20px; /* Bordas arredondadas para o menu dropdown */
+    font-size: 18px; /* Tamanho da fonte para os itens do menu */
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    padding: 15px 0; /* Altura do botão */
+    margin-bottom: 20px; /* Espaço entre botões */
+    font-size: 18px; /* Tamanho da fonte */
+    border-radius: 20px; /* Bordas arredondadas */
+}
+
+.btn-secondary {
+    background-color: #000000; /* Cor secundária */
+    border: none;
+    padding: 10px 0;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 150px; /* Largura fixa para o botão de retorno */
+    margin: auto; /* Centraliza o botão de retorno */
+}
+.preto{
+    background-color: #000000 !important;
+}
+
+/* Responsividade */
+@media (max-width: 576px) {
+    .container {
+        max-width: 90%;
+    }
+}

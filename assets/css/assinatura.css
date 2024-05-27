@@ -1,0 +1,35 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* ou qualquer outra cor de fundo desejada */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: #333; /* Cabeçalho cinza */
+    color: white;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border: none;
+    width: 200px; /* ou o tamanho que preferir */
+  }
+  
+  .btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+    width: 200px; /* ou o tamanho que preferir */
+  }
+  
+  .btn-lg {
+    padding: 10px 16px; /* Ajuste o preenchimento conforme necessário */
+    font-size: 18px; /* ou o tamanho de fonte que preferir */
+    border-radius: 10px; /* bordas levemente arredondadas */
+    line-height: 1.5;
+  }
+  
+  .btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none;
+  }

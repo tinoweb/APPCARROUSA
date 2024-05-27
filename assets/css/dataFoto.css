@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 600px; /* ou a largura que você desejar */
+    margin: auto;
+  }
+  
+  .input-group {
+    margin-bottom: 30px;
+  }
+  
+  .input-group .form-control {
+    border: 2px solid #28a745; /* borda mais grossa */
+  }
+  
+  .input-group .btn-outline-success {
+    border: 2px solid #28a745; /* borda mais grossa */
+    border-left: none; /* remove a borda do lado esquerdo */
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .black-bar {
+    height: 40px; /* altura da barra preta */
+    background-color: #000;
+  }
+  
+  .profile-section {
+    text-align: center; /* centraliza o conteúdo da seção */
+  }
+  
+  .profile-pic {
+    width: 100px; /* ou a altura e largura que desejar, mas devem ser iguais */
+    height: 100px; /* deve ser igual à largura para um círculo perfeito */
+    border-radius: 50%; /* isso criará um círculo perfeito */
+    border: 2px solid red; /* borda vermelha */
+    display: block;
+    margin: 0 auto 10px; /* centraliza a imagem horizontalmente */
+    object-fit: cover; /* isso irá cortar e cobrir a área do elemento */
+  }
+  .actions .btn {
+    border: none;
+    margin-bottom: 10px; /* espaço entre os botões */
+  }
+  
+  .footer {
+    text-align: center; /* centraliza o texto do rodapé */
+  }
+  
+  .footer .prime {
+    font-weight: bold;
+    color: #28a745;
+  }
+
+  /* -------- */
+  .button-container {
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente */
+    align-items: center; /* Alinha verticalmente */
+  }
+  
+  .btn-custom {
+    background-color: #28a745; /* Cor de fundo verde */
+    border: none; /* Sem borda */
+    color: white; /* Texto branco */
+    padding: 10px 25px; /* Preenchimento para aumentar o tamanho do botão */
+    font-size: 18px; /* Tamanho do texto */
+    border-radius: 25px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
+    transition: background-color 0.2s, box-shadow 0.2s; /* Transição suave para hover */
+  }
+  
+  .btn-custom:hover, .btn-custom:focus {
+    background-color: #218838; /* Cor mais escura no hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra maior para efeito no hover */
+    text-decoration: none; /* Remove a decoração de texto no hover */
+  }

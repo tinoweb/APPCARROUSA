@@ -1,0 +1,97 @@
+/* Global Styles */
+body.dark-bg {
+    background-color: #0e0d0d;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.top-bar {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+}
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.menu-toggle {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+/* ---------------------------- */
+
+.buttonsOption {
+    display: flex; /* Torna os elementos filhos flexíveis */
+    justify-content: space-between; /* Distribui o espaço disponível entre os elementos */
+}
+
+/* Aplica margem ao ícone */
+.buttonsOption i {
+    margin: 0 10px; /* Define a margem horizontal */
+}
+
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Inicialmente escondido */
+    width: 250px;
+    height: 100%;
+    background-color: #000000; /* Cor de fundo escura */
+    transition: left 0.3s ease; /* Transição suave para animar a abertura e o fechamento */
+    z-index: 1000; /* Certifique-se de que o menu esteja acima de outros elementos */
+}
+
+.side-menu ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.side-menu ul li {
+    margin-bottom: 10px;
+}
+
+.side-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.side-menu.open {
+    left: 0; /* Exibir o menu quando a classe 'open' é adicionada */
+}
+
+/* ------------- */
+
+.profile-pic {
+    width: 100px; /* ou a altura e largura que desejar, mas devem ser iguais */
+    height: 100px; /* deve ser igual à largura para um círculo perfeito */
+    border-radius: 50%; /* isso criará um círculo perfeito */
+    border: 2px solid red; /* borda vermelha */
+    display: block;
+    margin: 0 auto 10px; /* centraliza a imagem horizontalmente */
+    object-fit: cover; /* isso irá cortar e cobrir a área do elemento */
+}
+/* ------------------------------------- */
+

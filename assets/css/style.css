@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #000; /* Fundo preto conforme a imagem */
+    color: #fff; /* Texto branco */
+  }
+  
+  .form-signin {
+    background: transparent;
+    padding: 20px;
+    border-radius: 0; /* Borda retangular */
+  }
+  
+  .form-signin .form-control {
+    background: #fff; /* Fundo branco para o input */
+    border: none;
+    box-shadow: none; /* Removendo a sombra do input */
+    border-radius: 20px; /* Bordas arredondadas */
+    height: 50px; /* Altura específica */
+    color: #495057; /* Cor do texto para o input */
+    font-size: 18px; /* Tamanho da fonte maior */
+    margin-bottom: 20px; /* Espaçamento entre os campos */
+  }
+  
+  .form-signin .form-control:focus {
+    background: #e9ecef; /* Fundo cinza claro quando focado */
+    color: #495057;
+  }
+  
+  .form-signin button {
+    border-radius: 20px; /* Bordas arredondadas para o botão */
+    background-color: #28a745; /* Cor de fundo do botão */
+    border: none;
+    height: 50px; /* Altura específica */
+    font-size: 20px; /* Tamanho da fonte maior */
+    font-weight: bold; /* Fonte em negrito */
+    width: 100%; /* Ocupar toda a largura */
+  }
+  
+  /* Mudar a cor do botão ao passar o mouse */
+  .form-signin button:hover {
+    background-color: #218838; /* Um tom mais escuro de verde */
+  }
+  
+  /* Especificidades do ícone de olho no campo de senha */
+  .form-signin .input-group-text {
+    background: transparent;
+    border: none;
+    color: #fff; /* Ícone branco */
+  }
+  
+  /* Ajustando o ícone de olho para ficar dentro do campo de senha */
+  .input-group-append {
+    margin-left: -40px; /* Sobrepor ligeiramente sobre o campo de senha */
+  }
+  
+  /* Ajuste responsivo para telas menores */
+  @media (max-width: 768px) {
+    .form-signin {
+      margin-top: 20px;
+    }
+  }
+  

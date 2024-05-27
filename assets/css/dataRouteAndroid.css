@@ -1,0 +1,71 @@
+.container {
+    max-width: 600px; /* Ajuste a largura conforme necessário */
+    margin: auto;
+    margin-top: 50px; /* Espaço no topo */
+}
+
+.dropdown .btn-dark, .btn-dark.dropdown-toggle {
+    background-color: #000;
+    border: none;
+    padding: 10px 0; /* Altura do botão */
+    border-radius: 20px; /* Bordas arredondadas */
+    font-size: 18px; /* Tamanho da fonte */
+}
+
+.black-bar {
+    height: 40px; /* altura da barra preta */
+    background-color: #000;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    padding: 15px 0; /* Altura do botão */
+    font-size: 18px; /* Tamanho da fonte */
+    border-radius: 20px; /* Bordas arredondadas */
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Cor secundária */
+    border: none;
+    padding: 10px 0;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 150px; /* Largura fixa para o botão de retorno */
+    margin: 20px auto 0; /* Centraliza o botão de retorno */
+}
+
+/* Responsividade */
+@media (max-width: 576px) {
+    .container {
+        max-width: 90%;
+    }
+}
+/* ------------------------------ */
+
+.bg-black .dropdown-item {
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+  }
+  
+.bg-black .dropdown-item:hover {
+background-color: #333; /* Fundo mais claro para hover */
+}
+
+/* Certifique-se de que este estilo tem prioridade sobre os estilos padrões do Bootstrap */
+.dropdown-menu {
+background-color: #000; /* Fundo preto para o menu inteiro */
+}
+
+.dropdown-menu .dropdown-item {
+color: white; /* Texto branco para os itens */
+}
+
+#cityMenu {
+    max-height: 350px; 
+    overflow-y: auto; 
+}
+#numberMenu {
+    max-height: 400px; 
+    overflow-y: auto; 
+}

@@ -1,0 +1,12 @@
+app
+https://mvdamail.com/
+login:flavio@gmail.com
+senha:flavio@gmail.com
+-------------------------------------
+Gerenciador
+https://mvdamail.com/admin
+login:admin@gmail.com
+senha:carlos@gmail.com
+-------------------------------------
+
+https://br16.hostgator.com.br:2083/cpsess5985755496/3rdparty/phpMyAdmin/index.php?route=/database/structure&server=1&db=mvdama62_agile_route&table=

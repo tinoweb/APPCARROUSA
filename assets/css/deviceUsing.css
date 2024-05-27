@@ -1,0 +1,37 @@
+.container {
+    max-width: 400px; /* Ajuste a largura conforme necessário */
+    margin: auto;
+    margin-top: 50px; /* Espaço no topo */
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column; /* Empilha botões verticalmente */
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    padding: 15px 0; /* Mais altura para os botões */
+    font-size: 18px; /* Tamanho do texto */
+    border-radius: 20px; /* Bordas arredondadas */
+    margin-bottom: 10px; /* Espaço entre os botões */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para efeito 3D */
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Cor secundária */
+    border: none;
+    padding: 10px 0;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 150px; /* Largura fixa para o botão de retorno */
+    margin: 20px auto 0; /* Centraliza o botão de retorno */
+}
+
+/* Ajuste responsivo para pequenos dispositivos */
+@media (max-width: 576px) {
+    .container {
+        max-width: 90%;
+    }
+}
